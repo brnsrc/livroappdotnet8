@@ -1,5 +1,7 @@
 ﻿using Microsoft.Data.Sql;
 using Microsoft.Data.SqlClient;  // To use SqçConnection and so on
+using System.Data; //To useb CommaandType
+
 ConfigureConsole();
 
 #region Set up the connection string builder
@@ -14,7 +16,7 @@ SqlConnectionStringBuilder builder = new()
 WriteLine("Connect to:");
 WriteLine(" 1 - SQL Server on local machine");
 WriteLine(" 2 - Azure SQL Database");
-WriteLine(" 3 - SQL Server on local machine");
+WriteLine(" 3 - Azure SQL Edge");
 WriteLine();
 WriteLine("Press key: ");
 ConsoleKey key = ReadKey().Key;
@@ -23,7 +25,7 @@ WriteLine();WriteLine();
 switch (key)
 {
     case ConsoleKey.D1 or ConsoleKey.NumPad1:
-        builder.DataSource = ".";
+        builder.DataSource = @".\SQLEXPRESS";
         break;
 
     case ConsoleKey.D2 or ConsoleKey.NumPad2:
@@ -57,6 +59,47 @@ else if (key is ConsoleKey.D2 or ConsoleKey.NumPad2)
 {
     Write("Enter your SQL Server user ID: ");
     string? userId = ReadLine();
-    
+    if (string.IsNullOrWhiteSpace(userId))
+    {
+        WriteLine("User ID cannot be empty or null.");
+        return;
+    }
+    builder.UserID = userId;
+    Write("Enter your SQL Server password: ");
+    string? password = ReadLine();
+    if (string.IsNullOrWhiteSpace(password))
+    {
+        WriteLine("Password cannot be empty or null");
+        return;
+    }
+    builder.Password = password;
+    builder.PersistSecurityInfo = false;
+}
+else
+{
+    WriteLine("No authentication selected.");
+    return;
 }
 #endregion
+
+#region Create and open the connection
+SqlConnection connection = new(builder.ConnectionString);
+WriteLine(connection.ConnectionString);
+WriteLine();
+connection.StateChange += Connection_StateChange;
+connection.InfoMessage += Connection_InfoMessage;
+
+try
+{
+    WriteLine("Opening connection. please wait up to {0} seconds ...", builder.ConnectTimeout);
+    WriteLine();
+    connection.Open();
+    WriteLine($"SQL Server version: {connection.ServerVersion}");
+}
+catch (SqlException ex)
+{
+    WriteInColor($"SQL Exception: {ex.Message}", ConsoleColor.Red);
+}
+
+#endregion
+connection.Close();
