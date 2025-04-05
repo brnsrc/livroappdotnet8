@@ -102,4 +102,31 @@ catch (SqlException ex)
 }
 
 #endregion
+
+#region Create Command
+    SqlCommand cmd = connection.CreateCommand();
+    cmd.CommandType = CommandType.Text;
+    cmd.CommandText = "Select ProductId, ProductName, UnitPrice FROM Products";
+
+    SqlDataReader r = cmd.ExecuteReader();
+    string horizontalLine = new string('-', 60);
+    WriteLine(horizontalLine);
+
+    WriteLine("|{0,5}|{1,-35}|{2,10}|", 
+    arg0: "Id", arg1:"Name", arg2:"Price");
+    WriteLine(horizontalLine);
+
+    while (r.Read())
+    {
+        WriteLine("|{0,5}|{1,35}|{2,10:C}|",
+        r.GetInt32("ProductId"), 
+        r.GetString("ProductName"),
+        r.GetDecimal("UnitPrice"));
+    }
+
+    WriteLine(horizontalLine);
+    r.Close();
+
+#endregion
+
 connection.Close();
