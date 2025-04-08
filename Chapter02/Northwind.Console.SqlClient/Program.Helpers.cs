@@ -1,8 +1,6 @@
-using System;
-using System.Collections.Generic;
+using System.Collections; // To use Diction
 using System.Globalization;
-using System.Linq;
-using System.Threading.Tasks;
+using Microsoft.Data.SqlClient; // To use SqlConnection
 
 partial class Program
 {
@@ -23,6 +21,26 @@ partial class Program
         ForegroundColor = color;
         WriteLine(value);
         ForegroundColor = previousColor;
+    }
+
+    private static void OutputStatistics(SqlConnection connection)
+    {
+        //remove all the strings to see all the statistics.
+        string[] includeKeys = {
+            "BytesSent", "BytesReceived", "ConnectionTime", "SelectRows"
+        };
+
+        IDictionary statistics = connection.RetrieveStatistics();
+        foreach (object? key in statistics.Keys)
+        {
+            if (!includeKeys.Any() || includeKeys.Contains(key))
+            {
+                if (int.TryParse(statistics[key]?.ToString(), out int value))
+                {
+                    WriteInColor($"{key}: {value:N0}", ConsoleColor.Cyan);
+                }
+            }
+        }
     }
     
 }
