@@ -100,3 +100,4 @@ C:\Users\bruno.costa\Documents\Code\cs\livroappdotnet8\Chapter02\Northwind.Conso
 C:\Users\bruno.costa\Documents\Code\cs\livroappdotnet8\Chapter02\Northwind.Console.SqlClient\obj\Debug\net8.0\Northwind.Console.SqlClient.genruntimeconfig.cache
 C:\Users\bruno.costa\Documents\Code\cs\livroappdotnet8\Chapter02\Northwind.Console.SqlClient\obj\Debug\net8.0\ref\Northwind.Console.SqlClient.dll
 C:\Users\BrunoSouza-Desk\Documents\code\livroappdotnet8\Chapter02\Northwind.Console.SqlClient\obj\Debug\net8.0\Northwind.Console.SqlClient.sourcelink.json
+C:\Users\BrunoSouza-Desk\Documents\code\livroappdotnet8\Chapter02\Northwind.Console.SqlClient\bin\Debug\net8.0\Dapper.dll
