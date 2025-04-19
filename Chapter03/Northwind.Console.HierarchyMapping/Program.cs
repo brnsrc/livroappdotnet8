@@ -5,7 +5,7 @@ using Northwind.Models; //HierarchyDb, Person, Student
 
 DbContextOptionsBuilder<HierarchyDb> options = new();
 SqlConnectionStringBuilder builder = new();
-builder.DataSource = "."; //"ServerName\instanceName" e.g. @".\sqlexpress"
+builder.DataSource = ".\\SQLEXPRESS"; //"ServerName\instanceName" e.g. @".\sqlexpress"
 builder.TrustServerCertificate = true;
 builder.InitialCatalog = "HierarchyMapping";
 builder.MultipleActiveResultSets = true;
@@ -14,8 +14,8 @@ builder.MultipleActiveResultSets = true;
 builder.ConnectTimeout = 3;
 
 //If using SQL Server authentication
-//builder.UserId =  Environment.GetEnvironmentVariable("MY_SQL_USR");
-// builder.Password =  Environment.GetEnvironmentVariable("MY_SQL_PWD");
+builder.UserID =  "sa";
+builder.Password =  "bruno123";
 
 options.UseSqlServer(builder.ConnectionString);
 using (HierarchyDb db = new(options.Options))
@@ -25,8 +25,18 @@ using (HierarchyDb db = new(options.Options))
 
     bool created = await db.Database.EnsureCreatedAsync();
     WriteLine($"Database created: {created}");
-
     WriteLine(db.Database.GenerateCreateScript());
+
+    if ((db.Employees is not null) && (db.Students is not null))
+    {
+        db.Students.Add(new Student{Name = "Connor Roy", Subject = "Politics"});
+        db.Employees.Add(new Employee{Name = "Kerry Castellabate", 
+            HireDate = DateTime.UtcNow});
+        
+        int result = db.SaveChanges();
+        WriteLine($"{result} people added.");
+    }
+
     if (db.Students is null || !db.Students.Any())
     {
         WriteLine("There are no students.");
@@ -47,11 +57,21 @@ using (HierarchyDb db = new(options.Options))
     {
         foreach (Employee employee in db.Employees)
         {
-            WriteLine("{0} was hired on {1}");
+            WriteLine("{0} was hired on {1}", employee.Name, employee.HireDate);            
         }
     }
     
-    //Parei aqui People
+    if (db.People is null || !db.People.Any())
+    {
+        WriteLine("There are no people.");
+    }
+    else
+    {
+        foreach (Person person in db.People)
+        {
+            WriteLine("{0} has ID of {1}", person.Name, person.Id);
+        }    
+    }
 }
 
 
