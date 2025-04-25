@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Northwind.Console.HierarchyMapping")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9384509762ee3ba1c774cf9d0aea4b38eec2b995")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+63b1d8dd080f45a0e886f377745deedb89e1c4ef")]
 [assembly: System.Reflection.AssemblyProductAttribute("Northwind.Console.HierarchyMapping")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Northwind.Console.HierarchyMapping")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

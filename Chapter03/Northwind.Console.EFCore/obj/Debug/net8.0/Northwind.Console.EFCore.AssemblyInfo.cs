@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Northwind.Console.EFCore")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7bccb61df89856af01ef363969213ae828b1c882")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+63b1d8dd080f45a0e886f377745deedb89e1c4ef")]
 [assembly: System.Reflection.AssemblyProductAttribute("Northwind.Console.EFCore")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Northwind.Console.EFCore")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
