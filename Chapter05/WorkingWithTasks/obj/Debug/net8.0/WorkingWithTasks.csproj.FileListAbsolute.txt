@@ -1,0 +1,15 @@
+C:\Users\BrunoSouza-Desk\Documents\code\livroappdotnet8\Chapter05\WorkingWithTasks\bin\Debug\net8.0\WorkingWithTasks.exe
+C:\Users\BrunoSouza-Desk\Documents\code\livroappdotnet8\Chapter05\WorkingWithTasks\bin\Debug\net8.0\WorkingWithTasks.deps.json
+C:\Users\BrunoSouza-Desk\Documents\code\livroappdotnet8\Chapter05\WorkingWithTasks\bin\Debug\net8.0\WorkingWithTasks.runtimeconfig.json
+C:\Users\BrunoSouza-Desk\Documents\code\livroappdotnet8\Chapter05\WorkingWithTasks\bin\Debug\net8.0\WorkingWithTasks.dll
+C:\Users\BrunoSouza-Desk\Documents\code\livroappdotnet8\Chapter05\WorkingWithTasks\bin\Debug\net8.0\WorkingWithTasks.pdb
+C:\Users\BrunoSouza-Desk\Documents\code\livroappdotnet8\Chapter05\WorkingWithTasks\obj\Debug\net8.0\WorkingWithTasks.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\BrunoSouza-Desk\Documents\code\livroappdotnet8\Chapter05\WorkingWithTasks\obj\Debug\net8.0\WorkingWithTasks.AssemblyInfoInputs.cache
+C:\Users\BrunoSouza-Desk\Documents\code\livroappdotnet8\Chapter05\WorkingWithTasks\obj\Debug\net8.0\WorkingWithTasks.AssemblyInfo.cs
+C:\Users\BrunoSouza-Desk\Documents\code\livroappdotnet8\Chapter05\WorkingWithTasks\obj\Debug\net8.0\WorkingWithTasks.csproj.CoreCompileInputs.cache
+C:\Users\BrunoSouza-Desk\Documents\code\livroappdotnet8\Chapter05\WorkingWithTasks\obj\Debug\net8.0\WorkingWithTasks.sourcelink.json
+C:\Users\BrunoSouza-Desk\Documents\code\livroappdotnet8\Chapter05\WorkingWithTasks\obj\Debug\net8.0\WorkingWithTasks.dll
+C:\Users\BrunoSouza-Desk\Documents\code\livroappdotnet8\Chapter05\WorkingWithTasks\obj\Debug\net8.0\refint\WorkingWithTasks.dll
+C:\Users\BrunoSouza-Desk\Documents\code\livroappdotnet8\Chapter05\WorkingWithTasks\obj\Debug\net8.0\WorkingWithTasks.pdb
+C:\Users\BrunoSouza-Desk\Documents\code\livroappdotnet8\Chapter05\WorkingWithTasks\obj\Debug\net8.0\WorkingWithTasks.genruntimeconfig.cache
+C:\Users\BrunoSouza-Desk\Documents\code\livroappdotnet8\Chapter05\WorkingWithTasks\obj\Debug\net8.0\ref\WorkingWithTasks.dll
