@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\BrunoSouza-Desk\\Documents\\code\\livroappdotnet8\\Chapter05\\Chapter05\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1B407C86-7E66-4CFF-843B-B837E3BE1D0E}|WpfResponsive\\WpfResponsive.csproj|c:\\users\\brunosouza-desk\\documents\\code\\livroappdotnet8\\chapter05\\chapter05\\wpfresponsive\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B407C86-7E66-4CFF-843B-B837E3BE1D0E}|WpfResponsive\\WpfResponsive.csproj|solutionrelative:wpfresponsive\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B407C86-7E66-4CFF-843B-B837E3BE1D0E}|WpfResponsive\\WpfResponsive.csproj|c:\\users\\brunosouza-desk\\documents\\code\\livroappdotnet8\\chapter05\\chapter05\\wpfresponsive\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1B407C86-7E66-4CFF-843B-B837E3BE1D0E}|WpfResponsive\\WpfResponsive.csproj|solutionrelative:wpfresponsive\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B407C86-7E66-4CFF-843B-B837E3BE1D0E}|WpfResponsive\\WpfResponsive.csproj|c:\\users\\brunosouza-desk\\documents\\code\\livroappdotnet8\\chapter05\\chapter05\\wpfresponsive\\wpfresponsive.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{1B407C86-7E66-4CFF-843B-B837E3BE1D0E}|WpfResponsive\\WpfResponsive.csproj|solutionrelative:wpfresponsive\\wpfresponsive.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 441,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\BrunoSouza-Desk\\Documents\\code\\livroappdotnet8\\Chapter05\\Chapter05\\WpfResponsive\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "WpfResponsive\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\BrunoSouza-Desk\\Documents\\code\\livroappdotnet8\\Chapter05\\Chapter05\\WpfResponsive\\MainWindow.xaml",
+              "RelativeToolTip": "WpfResponsive\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-11T21:01:02.23Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\BrunoSouza-Desk\\Documents\\code\\livroappdotnet8\\Chapter05\\Chapter05\\WpfResponsive\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WpfResponsive\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\BrunoSouza-Desk\\Documents\\code\\livroappdotnet8\\Chapter05\\Chapter05\\WpfResponsive\\MainWindow.xaml.cs",
+              "RelativeToolTip": "WpfResponsive\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAADMAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-11T21:00:57.615Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WpfResponsive.csproj",
+              "DocumentMoniker": "C:\\Users\\BrunoSouza-Desk\\Documents\\code\\livroappdotnet8\\Chapter05\\Chapter05\\WpfResponsive\\WpfResponsive.csproj",
+              "RelativeDocumentMoniker": "WpfResponsive\\WpfResponsive.csproj",
+              "ToolTip": "C:\\Users\\BrunoSouza-Desk\\Documents\\code\\livroappdotnet8\\Chapter05\\Chapter05\\WpfResponsive\\WpfResponsive.csproj",
+              "RelativeToolTip": "WpfResponsive\\WpfResponsive.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-11T21:30:28.782Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

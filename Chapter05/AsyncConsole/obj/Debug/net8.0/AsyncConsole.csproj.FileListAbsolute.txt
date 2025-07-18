@@ -1,0 +1,15 @@
+C:\Users\BrunoSouza-Desk\Documents\code\livroappdotnet8\Chapter05\AsyncConsole\bin\Debug\net8.0\AsyncConsole.exe
+C:\Users\BrunoSouza-Desk\Documents\code\livroappdotnet8\Chapter05\AsyncConsole\bin\Debug\net8.0\AsyncConsole.deps.json
+C:\Users\BrunoSouza-Desk\Documents\code\livroappdotnet8\Chapter05\AsyncConsole\bin\Debug\net8.0\AsyncConsole.runtimeconfig.json
+C:\Users\BrunoSouza-Desk\Documents\code\livroappdotnet8\Chapter05\AsyncConsole\bin\Debug\net8.0\AsyncConsole.dll
+C:\Users\BrunoSouza-Desk\Documents\code\livroappdotnet8\Chapter05\AsyncConsole\bin\Debug\net8.0\AsyncConsole.pdb
+C:\Users\BrunoSouza-Desk\Documents\code\livroappdotnet8\Chapter05\AsyncConsole\obj\Debug\net8.0\AsyncConsole.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\BrunoSouza-Desk\Documents\code\livroappdotnet8\Chapter05\AsyncConsole\obj\Debug\net8.0\AsyncConsole.AssemblyInfoInputs.cache
+C:\Users\BrunoSouza-Desk\Documents\code\livroappdotnet8\Chapter05\AsyncConsole\obj\Debug\net8.0\AsyncConsole.AssemblyInfo.cs
+C:\Users\BrunoSouza-Desk\Documents\code\livroappdotnet8\Chapter05\AsyncConsole\obj\Debug\net8.0\AsyncConsole.csproj.CoreCompileInputs.cache
+C:\Users\BrunoSouza-Desk\Documents\code\livroappdotnet8\Chapter05\AsyncConsole\obj\Debug\net8.0\AsyncConsole.sourcelink.json
+C:\Users\BrunoSouza-Desk\Documents\code\livroappdotnet8\Chapter05\AsyncConsole\obj\Debug\net8.0\AsyncConsole.dll
+C:\Users\BrunoSouza-Desk\Documents\code\livroappdotnet8\Chapter05\AsyncConsole\obj\Debug\net8.0\refint\AsyncConsole.dll
+C:\Users\BrunoSouza-Desk\Documents\code\livroappdotnet8\Chapter05\AsyncConsole\obj\Debug\net8.0\AsyncConsole.pdb
+C:\Users\BrunoSouza-Desk\Documents\code\livroappdotnet8\Chapter05\AsyncConsole\obj\Debug\net8.0\AsyncConsole.genruntimeconfig.cache
+C:\Users\BrunoSouza-Desk\Documents\code\livroappdotnet8\Chapter05\AsyncConsole\obj\Debug\net8.0\ref\AsyncConsole.dll

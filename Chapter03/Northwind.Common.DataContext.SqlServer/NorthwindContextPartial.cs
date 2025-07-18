@@ -19,7 +19,7 @@ public partial class NorthwindContext : DbContext
             builder.ConnectTimeout = 3;
 
             //If using SQL Server authentication.
-            builder.UserID = "bruno";
+            builder.UserID = "sa";
             builder.Password = "bruno123";
             optionsBuilder.UseSqlServer(builder.ConnectionString);
         }

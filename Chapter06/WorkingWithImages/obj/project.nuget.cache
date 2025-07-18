@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "PYTDYEcvWjQ=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\BrunoSouza-Desk\\Documents\\code\\livroappdotnet8\\Chapter06\\WorkingWithImages\\WorkingWithImages.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\BrunoSouza-Desk\\.nuget\\packages\\sixlabors.imagesharp\\3.1.10\\sixlabors.imagesharp.3.1.10.nupkg.sha512"
+  ],
+  "logs": []
+}

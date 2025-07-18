@@ -1,0 +1,15 @@
+C:\Users\BrunoSouza-Desk\Documents\code\livroappdotnet8\Chapter05\SynchronizingResourceAccess\bin\Debug\net8.0\SynchronizingResourceAccess.exe
+C:\Users\BrunoSouza-Desk\Documents\code\livroappdotnet8\Chapter05\SynchronizingResourceAccess\bin\Debug\net8.0\SynchronizingResourceAccess.deps.json
+C:\Users\BrunoSouza-Desk\Documents\code\livroappdotnet8\Chapter05\SynchronizingResourceAccess\bin\Debug\net8.0\SynchronizingResourceAccess.runtimeconfig.json
+C:\Users\BrunoSouza-Desk\Documents\code\livroappdotnet8\Chapter05\SynchronizingResourceAccess\bin\Debug\net8.0\SynchronizingResourceAccess.dll
+C:\Users\BrunoSouza-Desk\Documents\code\livroappdotnet8\Chapter05\SynchronizingResourceAccess\bin\Debug\net8.0\SynchronizingResourceAccess.pdb
+C:\Users\BrunoSouza-Desk\Documents\code\livroappdotnet8\Chapter05\SynchronizingResourceAccess\obj\Debug\net8.0\SynchronizingResourceAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\BrunoSouza-Desk\Documents\code\livroappdotnet8\Chapter05\SynchronizingResourceAccess\obj\Debug\net8.0\SynchronizingResourceAccess.AssemblyInfoInputs.cache
+C:\Users\BrunoSouza-Desk\Documents\code\livroappdotnet8\Chapter05\SynchronizingResourceAccess\obj\Debug\net8.0\SynchronizingResourceAccess.AssemblyInfo.cs
+C:\Users\BrunoSouza-Desk\Documents\code\livroappdotnet8\Chapter05\SynchronizingResourceAccess\obj\Debug\net8.0\SynchronizingResourceAccess.csproj.CoreCompileInputs.cache
+C:\Users\BrunoSouza-Desk\Documents\code\livroappdotnet8\Chapter05\SynchronizingResourceAccess\obj\Debug\net8.0\SynchronizingResourceAccess.sourcelink.json
+C:\Users\BrunoSouza-Desk\Documents\code\livroappdotnet8\Chapter05\SynchronizingResourceAccess\obj\Debug\net8.0\SynchronizingResourceAccess.dll
+C:\Users\BrunoSouza-Desk\Documents\code\livroappdotnet8\Chapter05\SynchronizingResourceAccess\obj\Debug\net8.0\refint\SynchronizingResourceAccess.dll
+C:\Users\BrunoSouza-Desk\Documents\code\livroappdotnet8\Chapter05\SynchronizingResourceAccess\obj\Debug\net8.0\SynchronizingResourceAccess.pdb
+C:\Users\BrunoSouza-Desk\Documents\code\livroappdotnet8\Chapter05\SynchronizingResourceAccess\obj\Debug\net8.0\SynchronizingResourceAccess.genruntimeconfig.cache
+C:\Users\BrunoSouza-Desk\Documents\code\livroappdotnet8\Chapter05\SynchronizingResourceAccess\obj\Debug\net8.0\ref\SynchronizingResourceAccess.dll
