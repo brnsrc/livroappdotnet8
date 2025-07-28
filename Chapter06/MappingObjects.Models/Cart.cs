@@ -1,5 +1,5 @@
 namespace  Northwind.EntityModels;
 public record class Cart(
-    Customer customer,
+    Customer Customer,
     List<LineItem> Items
 );
