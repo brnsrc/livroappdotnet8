@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MappingObjects.Mappers", "M
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MappingObjects.Tests", "MappingObjects.Tests\MappingObjects.Tests.csproj", "{B168EA79-2416-4B5B-9F01-4F0AD9CED76F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MappingObjects.Console", "MappingObjects.Console\MappingObjects.Console.csproj", "{0ADA2D2B-E9EE-4D73-8DDE-6DA958B0D2D5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -97,6 +99,18 @@ Global
 		{B168EA79-2416-4B5B-9F01-4F0AD9CED76F}.Release|x64.Build.0 = Release|Any CPU
 		{B168EA79-2416-4B5B-9F01-4F0AD9CED76F}.Release|x86.ActiveCfg = Release|Any CPU
 		{B168EA79-2416-4B5B-9F01-4F0AD9CED76F}.Release|x86.Build.0 = Release|Any CPU
+		{0ADA2D2B-E9EE-4D73-8DDE-6DA958B0D2D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0ADA2D2B-E9EE-4D73-8DDE-6DA958B0D2D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0ADA2D2B-E9EE-4D73-8DDE-6DA958B0D2D5}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{0ADA2D2B-E9EE-4D73-8DDE-6DA958B0D2D5}.Debug|x64.Build.0 = Debug|Any CPU
+		{0ADA2D2B-E9EE-4D73-8DDE-6DA958B0D2D5}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{0ADA2D2B-E9EE-4D73-8DDE-6DA958B0D2D5}.Debug|x86.Build.0 = Debug|Any CPU
+		{0ADA2D2B-E9EE-4D73-8DDE-6DA958B0D2D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0ADA2D2B-E9EE-4D73-8DDE-6DA958B0D2D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0ADA2D2B-E9EE-4D73-8DDE-6DA958B0D2D5}.Release|x64.ActiveCfg = Release|Any CPU
+		{0ADA2D2B-E9EE-4D73-8DDE-6DA958B0D2D5}.Release|x64.Build.0 = Release|Any CPU
+		{0ADA2D2B-E9EE-4D73-8DDE-6DA958B0D2D5}.Release|x86.ActiveCfg = Release|Any CPU
+		{0ADA2D2B-E9EE-4D73-8DDE-6DA958B0D2D5}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

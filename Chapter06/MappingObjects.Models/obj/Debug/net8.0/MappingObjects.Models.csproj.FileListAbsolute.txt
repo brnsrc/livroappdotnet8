@@ -1,0 +1,12 @@
+C:\Users\BrunoSouza-Desk\Documents\code\livroappdotnet8\Chapter06\MappingObjects.Models\bin\Debug\net8.0\MappingObjects.Models.deps.json
+C:\Users\BrunoSouza-Desk\Documents\code\livroappdotnet8\Chapter06\MappingObjects.Models\bin\Debug\net8.0\MappingObjects.Models.dll
+C:\Users\BrunoSouza-Desk\Documents\code\livroappdotnet8\Chapter06\MappingObjects.Models\bin\Debug\net8.0\MappingObjects.Models.pdb
+C:\Users\BrunoSouza-Desk\Documents\code\livroappdotnet8\Chapter06\MappingObjects.Models\obj\Debug\net8.0\MappingObjects.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\BrunoSouza-Desk\Documents\code\livroappdotnet8\Chapter06\MappingObjects.Models\obj\Debug\net8.0\MappingObjects.Models.AssemblyInfoInputs.cache
+C:\Users\BrunoSouza-Desk\Documents\code\livroappdotnet8\Chapter06\MappingObjects.Models\obj\Debug\net8.0\MappingObjects.Models.AssemblyInfo.cs
+C:\Users\BrunoSouza-Desk\Documents\code\livroappdotnet8\Chapter06\MappingObjects.Models\obj\Debug\net8.0\MappingObjects.Models.csproj.CoreCompileInputs.cache
+C:\Users\BrunoSouza-Desk\Documents\code\livroappdotnet8\Chapter06\MappingObjects.Models\obj\Debug\net8.0\MappingObjects.Models.sourcelink.json
+C:\Users\BrunoSouza-Desk\Documents\code\livroappdotnet8\Chapter06\MappingObjects.Models\obj\Debug\net8.0\MappingObjects.Models.dll
+C:\Users\BrunoSouza-Desk\Documents\code\livroappdotnet8\Chapter06\MappingObjects.Models\obj\Debug\net8.0\refint\MappingObjects.Models.dll
+C:\Users\BrunoSouza-Desk\Documents\code\livroappdotnet8\Chapter06\MappingObjects.Models\obj\Debug\net8.0\MappingObjects.Models.pdb
+C:\Users\BrunoSouza-Desk\Documents\code\livroappdotnet8\Chapter06\MappingObjects.Models\obj\Debug\net8.0\ref\MappingObjects.Models.dll

@@ -11,3 +11,6 @@ C:\Users\BrunoSouza-Desk\Documents\code\livroappdotnet8\Chapter06\MappingObjects
 C:\Users\BrunoSouza-Desk\Documents\code\livroappdotnet8\Chapter06\MappingObjects.Mappers\obj\Debug\net8.0\refint\MappingObjects.Mappers.dll
 C:\Users\BrunoSouza-Desk\Documents\code\livroappdotnet8\Chapter06\MappingObjects.Mappers\obj\Debug\net8.0\MappingObjects.Mappers.pdb
 C:\Users\BrunoSouza-Desk\Documents\code\livroappdotnet8\Chapter06\MappingObjects.Mappers\obj\Debug\net8.0\ref\MappingObjects.Mappers.dll
+C:\Users\BrunoSouza-Desk\Documents\code\livroappdotnet8\Chapter06\MappingObjects.Mappers\bin\Debug\net8.0\MappingObjects.Models.dll
+C:\Users\BrunoSouza-Desk\Documents\code\livroappdotnet8\Chapter06\MappingObjects.Mappers\bin\Debug\net8.0\MappingObjects.Models.pdb
+C:\Users\BrunoSouza-Desk\Documents\code\livroappdotnet8\Chapter06\MappingObjects.Mappers\obj\Debug\net8.0\MappingO.66720312.Up2Date
