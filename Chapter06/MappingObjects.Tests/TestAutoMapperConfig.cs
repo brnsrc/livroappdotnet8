@@ -27,6 +27,7 @@ public class TestAutoMapperConfig
 
         //Act
         var cart = new Cart(customer, listItem);
+        
         var config = CartToSummaryMapper.GetMapperConfiguration();
         IMapper mapper = config.CreateMapper();
         Summary summary = mapper.Map<Cart, Summary>(cart);
