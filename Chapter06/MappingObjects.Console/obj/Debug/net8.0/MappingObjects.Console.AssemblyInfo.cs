@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MappingObjects.Console")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c9af5346b3ff1aebe23e92ce470034fe8f4e3493")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c3d6a5252bd571205b3aedf98c0182123fba6ca3")]
 [assembly: System.Reflection.AssemblyProductAttribute("MappingObjects.Console")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MappingObjects.Console")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

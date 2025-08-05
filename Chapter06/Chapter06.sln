@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentValidation.Models", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentValidation.Validators", "FluentValidation.Validators\FluentValidation.Validators.csproj", "{974ABCF8-86F0-42A1-8742-A116EE2DDF44}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentValidation.Console", "FluentValidation.Console\FluentValidation.Console.csproj", "{D77E08EA-1653-43A1-8064-C192AFC96DA9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -153,6 +155,18 @@ Global
 		{974ABCF8-86F0-42A1-8742-A116EE2DDF44}.Release|x64.Build.0 = Release|Any CPU
 		{974ABCF8-86F0-42A1-8742-A116EE2DDF44}.Release|x86.ActiveCfg = Release|Any CPU
 		{974ABCF8-86F0-42A1-8742-A116EE2DDF44}.Release|x86.Build.0 = Release|Any CPU
+		{D77E08EA-1653-43A1-8064-C192AFC96DA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D77E08EA-1653-43A1-8064-C192AFC96DA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D77E08EA-1653-43A1-8064-C192AFC96DA9}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{D77E08EA-1653-43A1-8064-C192AFC96DA9}.Debug|x64.Build.0 = Debug|Any CPU
+		{D77E08EA-1653-43A1-8064-C192AFC96DA9}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{D77E08EA-1653-43A1-8064-C192AFC96DA9}.Debug|x86.Build.0 = Debug|Any CPU
+		{D77E08EA-1653-43A1-8064-C192AFC96DA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D77E08EA-1653-43A1-8064-C192AFC96DA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D77E08EA-1653-43A1-8064-C192AFC96DA9}.Release|x64.ActiveCfg = Release|Any CPU
+		{D77E08EA-1653-43A1-8064-C192AFC96DA9}.Release|x64.Build.0 = Release|Any CPU
+		{D77E08EA-1653-43A1-8064-C192AFC96DA9}.Release|x86.ActiveCfg = Release|Any CPU
+		{D77E08EA-1653-43A1-8064-C192AFC96DA9}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

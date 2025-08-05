@@ -1,0 +1,12 @@
+C:\Users\BrunoSouza-Desk\Documents\code\livroappdotnet8\Chapter06\FluentValidation.Models\bin\Debug\net8.0\FluentValidation.Models.deps.json
+C:\Users\BrunoSouza-Desk\Documents\code\livroappdotnet8\Chapter06\FluentValidation.Models\bin\Debug\net8.0\FluentValidation.Models.dll
+C:\Users\BrunoSouza-Desk\Documents\code\livroappdotnet8\Chapter06\FluentValidation.Models\bin\Debug\net8.0\FluentValidation.Models.pdb
+C:\Users\BrunoSouza-Desk\Documents\code\livroappdotnet8\Chapter06\FluentValidation.Models\obj\Debug\net8.0\FluentValidation.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\BrunoSouza-Desk\Documents\code\livroappdotnet8\Chapter06\FluentValidation.Models\obj\Debug\net8.0\FluentValidation.Models.AssemblyInfoInputs.cache
+C:\Users\BrunoSouza-Desk\Documents\code\livroappdotnet8\Chapter06\FluentValidation.Models\obj\Debug\net8.0\FluentValidation.Models.AssemblyInfo.cs
+C:\Users\BrunoSouza-Desk\Documents\code\livroappdotnet8\Chapter06\FluentValidation.Models\obj\Debug\net8.0\FluentValidation.Models.csproj.CoreCompileInputs.cache
+C:\Users\BrunoSouza-Desk\Documents\code\livroappdotnet8\Chapter06\FluentValidation.Models\obj\Debug\net8.0\FluentValidation.Models.sourcelink.json
+C:\Users\BrunoSouza-Desk\Documents\code\livroappdotnet8\Chapter06\FluentValidation.Models\obj\Debug\net8.0\FluentValidation.Models.dll
+C:\Users\BrunoSouza-Desk\Documents\code\livroappdotnet8\Chapter06\FluentValidation.Models\obj\Debug\net8.0\refint\FluentValidation.Models.dll
+C:\Users\BrunoSouza-Desk\Documents\code\livroappdotnet8\Chapter06\FluentValidation.Models\obj\Debug\net8.0\FluentValidation.Models.pdb
+C:\Users\BrunoSouza-Desk\Documents\code\livroappdotnet8\Chapter06\FluentValidation.Models\obj\Debug\net8.0\ref\FluentValidation.Models.dll

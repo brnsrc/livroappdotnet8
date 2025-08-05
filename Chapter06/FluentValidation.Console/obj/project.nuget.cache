@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "6GfJF61NUfA=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\BrunoSouza-Desk\\Documents\\code\\livroappdotnet8\\Chapter06\\FluentValidation.Console\\FluentValidation.Console.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\BrunoSouza-Desk\\.nuget\\packages\\fluentvalidation\\12.0.0\\fluentvalidation.12.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
