@@ -18,6 +18,13 @@ WriteLine();
 Order order = new()
 {
     // Start with a deliberately invalid order.
+    OrderId = 10001,
+    CustomerName = "Abcdef",
+    CustomerEmail = "abc@example.com",
+    CustomerLevel = CustomerLevel.Gold,
+    OrderDate = new(2022, month: 12, day: 1),
+    ShipDate = new(2022, month: 12, day: 5),
+    Total = 49.99M
 };
 
 OrderValidator validator = new();

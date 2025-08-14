@@ -1,0 +1,16 @@
+C:\Users\BrunoSouza-Desk\Documents\code\livroappdotnet8\Chapter06\GeneratingPdf.Document\bin\Debug\net8.0\GeneratingPdf.Document.deps.json
+C:\Users\BrunoSouza-Desk\Documents\code\livroappdotnet8\Chapter06\GeneratingPdf.Document\bin\Debug\net8.0\GeneratingPdf.Document.dll
+C:\Users\BrunoSouza-Desk\Documents\code\livroappdotnet8\Chapter06\GeneratingPdf.Document\bin\Debug\net8.0\GeneratingPdf.Document.pdb
+C:\Users\BrunoSouza-Desk\Documents\code\livroappdotnet8\Chapter06\GeneratingPdf.Document\bin\Debug\net8.0\GeneratingPdf.Models.dll
+C:\Users\BrunoSouza-Desk\Documents\code\livroappdotnet8\Chapter06\GeneratingPdf.Document\bin\Debug\net8.0\GeneratingPdf.Models.pdb
+C:\Users\BrunoSouza-Desk\Documents\code\livroappdotnet8\Chapter06\GeneratingPdf.Document\obj\Debug\net8.0\GeneratingPdf.Document.csproj.AssemblyReference.cache
+C:\Users\BrunoSouza-Desk\Documents\code\livroappdotnet8\Chapter06\GeneratingPdf.Document\obj\Debug\net8.0\GeneratingPdf.Document.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\BrunoSouza-Desk\Documents\code\livroappdotnet8\Chapter06\GeneratingPdf.Document\obj\Debug\net8.0\GeneratingPdf.Document.AssemblyInfoInputs.cache
+C:\Users\BrunoSouza-Desk\Documents\code\livroappdotnet8\Chapter06\GeneratingPdf.Document\obj\Debug\net8.0\GeneratingPdf.Document.AssemblyInfo.cs
+C:\Users\BrunoSouza-Desk\Documents\code\livroappdotnet8\Chapter06\GeneratingPdf.Document\obj\Debug\net8.0\GeneratingPdf.Document.csproj.CoreCompileInputs.cache
+C:\Users\BrunoSouza-Desk\Documents\code\livroappdotnet8\Chapter06\GeneratingPdf.Document\obj\Debug\net8.0\GeneratingPdf.Document.sourcelink.json
+C:\Users\BrunoSouza-Desk\Documents\code\livroappdotnet8\Chapter06\GeneratingPdf.Document\obj\Debug\net8.0\Generati.8C2C3AD0.Up2Date
+C:\Users\BrunoSouza-Desk\Documents\code\livroappdotnet8\Chapter06\GeneratingPdf.Document\obj\Debug\net8.0\GeneratingPdf.Document.dll
+C:\Users\BrunoSouza-Desk\Documents\code\livroappdotnet8\Chapter06\GeneratingPdf.Document\obj\Debug\net8.0\refint\GeneratingPdf.Document.dll
+C:\Users\BrunoSouza-Desk\Documents\code\livroappdotnet8\Chapter06\GeneratingPdf.Document\obj\Debug\net8.0\GeneratingPdf.Document.pdb
+C:\Users\BrunoSouza-Desk\Documents\code\livroappdotnet8\Chapter06\GeneratingPdf.Document\obj\Debug\net8.0\ref\GeneratingPdf.Document.dll

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MappingObjects.Models")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c3d6a5252bd571205b3aedf98c0182123fba6ca3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2326da2cb3207ba85f1d2d3de538a2256560ccab")]
 [assembly: System.Reflection.AssemblyProductAttribute("MappingObjects.Models")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MappingObjects.Models")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

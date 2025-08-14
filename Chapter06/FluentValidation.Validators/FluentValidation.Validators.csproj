@@ -9,7 +9,7 @@
     <PackageReference Include="FluentValidation" Version="12.0.0" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\Users\BrunoSouza-Desk\Documents\code\livroappdotnet8\Chapter06\FluentValidation.Models\FluentValidation.Models.csproj" />
+    <ProjectReference Include="..\FluentValidation.Models\FluentValidation.Models.csproj" />
   </ItemGroup>
 
 </Project>
