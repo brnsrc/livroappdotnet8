@@ -1,5 +1,6 @@
-﻿ConfigureConsole("pt-BR"); //Defaults to pt-BR culture
-SectionTitle("Specifying date and time values");
+﻿using System.Globalization; //To use CultureInfo.
+ConfigureConsole("en-GB"); //Defaults to pt-BR culture
+// SectionTitle("Specifying date and time values");
 // WriteLine($"Datetime.MinValue: {DateTime.MinValue}");
 // WriteLine($"Datetime.MaxValue: {DateTime.MaxValue}");
 // WriteLine($"Datetime.UnixEpoch: {DateTime.UnixEpoch}");
@@ -28,10 +29,53 @@ DateTime xmas = new(year: 2025, month: 12, day: 25);
 // WriteLine($"there are {untilXmas.Days} days and {untilXmas.Hours} hours until Christmas {xmas.Year}");
 // WriteLine($"there are {untilXmas.TotalHours:N0} hours " + $"until Christmas {xmas.Year}");
 
-DateTime kidsWakeUp = new(
-    year: 2025, month: 12, day: 25, hour: 6, minute: 30, second: 0);
+// DateTime kidsWakeUp = new(
+//     year: 2025, month: 12, day: 25, hour: 6, minute: 30, second: 0);
 
-WriteLine($"Kids wake up: {kidsWakeUp}");
-WriteLine($"The kids woke me up at {kidsWakeUp.ToShortTimeString()}");
+// WriteLine($"Kids wake up: {kidsWakeUp}");
+// WriteLine($"The kids woke me up at {kidsWakeUp.ToShortTimeString()}");
+
+// SectionTitle("Milli-, micro-, and nanoseconds");
+// DateTime preciseTime = new(
+//     year: 2022, month: 11, day: 8, hour: 12, minute: 0, second: 0,
+//     millisecond: 6, microsecond: 999);
+
+// WriteLine(
+//     $"Millisecond: {preciseTime.Millisecond}, Microsecond: {preciseTime.Microsecond}, "
+//        + "Nanosecond: {preciseTime.Nanosecond}");
+// preciseTime = DateTime.UtcNow;
+
+// //Nanosecond valuew will be 0 to 900 in 100 nanosecond increments.
+// WriteLine(
+//     $"Millisecond: {preciseTime.Millisecond}, Microsecond: {preciseTime.Microsecond}, "
+//    + "Nanosecond: {preciseTime.Nanosecond}");
 
 
+SectionTitle("Globalization with dates and times");
+
+//Same as Thread.CurrentThread.CurrentCulture.
+// WriteLine($"Current Culture: {CultureInfo.CurrentCulture.Name}");
+string textDate = "4 July 2024";
+DateTime independenceDay = DateTime.Parse(textDate);
+// WriteLine($"Text: {textDate}, DateTime: {independenceDay:d MMMM}");
+
+// textDate = "7/4/2024"; ;
+// independenceDay = DateTime.Parse(textDate);
+// WriteLine($"Text: {textDate}, DateTime: {independenceDay:d MMMM}");
+
+// //Explicitly override the current culture by setting a provider
+// independenceDay = DateTime.Parse(
+//     textDate, provider: CultureInfo.GetCultureInfo("en-US"));
+
+// WriteLine($"Text: {textDate}, DateTime: {independenceDay:d MMMM}");
+
+
+for (int year = 2023; year <= 2028; year++)
+{
+    Write($"{year} is a leap year: {DateTime.IsLeapYear(year)}.");
+    WriteLine($"There are {DateTime.DaysInMonth(year: year, month: 2)}"
+        + $" days in February {year}");
+}
+WriteLine($"Is Christmas daylight saving time ? {xmas.IsDaylightSavingTime()}");
+WriteLine(
+        $"Is July 4th daylight saving time? {independenceDay.IsDaylightSavingTime()}");
