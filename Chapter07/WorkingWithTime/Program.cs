@@ -1,4 +1,5 @@
-﻿using System.Globalization; //To use CultureInfo.
+﻿using System.Globalization;
+using System.Threading.Tasks.Dataflow; //To use CultureInfo.
 ConfigureConsole("en-GB"); //Defaults to pt-BR culture
 // SectionTitle("Specifying date and time values");
 // WriteLine($"Datetime.MinValue: {DateTime.MinValue}");
@@ -51,12 +52,12 @@ DateTime xmas = new(year: 2025, month: 12, day: 25);
 //    + "Nanosecond: {preciseTime.Nanosecond}");
 
 
-SectionTitle("Globalization with dates and times");
+// SectionTitle("Globalization with dates and times");
 
 //Same as Thread.CurrentThread.CurrentCulture.
 // WriteLine($"Current Culture: {CultureInfo.CurrentCulture.Name}");
-string textDate = "4 July 2024";
-DateTime independenceDay = DateTime.Parse(textDate);
+// string textDate = "4 July 2024";
+// DateTime independenceDay = DateTime.Parse(textDate);
 // WriteLine($"Text: {textDate}, DateTime: {independenceDay:d MMMM}");
 
 // textDate = "7/4/2024"; ;
@@ -70,12 +71,35 @@ DateTime independenceDay = DateTime.Parse(textDate);
 // WriteLine($"Text: {textDate}, DateTime: {independenceDay:d MMMM}");
 
 
-for (int year = 2023; year <= 2028; year++)
-{
-    Write($"{year} is a leap year: {DateTime.IsLeapYear(year)}.");
-    WriteLine($"There are {DateTime.DaysInMonth(year: year, month: 2)}"
-        + $" days in February {year}");
-}
-WriteLine($"Is Christmas daylight saving time ? {xmas.IsDaylightSavingTime()}");
+// for (int year = 2023; year <= 2028; year++)
+// {
+//     Write($"{year} is a leap year: {DateTime.IsLeapYear(year)}.");
+//     WriteLine($"There are {DateTime.DaysInMonth(year: year, month: 2)}"
+//         + $" days in February {year}");
+// }
+// WriteLine($"Is Christmas daylight saving time ? {xmas.IsDaylightSavingTime()}");
+// WriteLine(
+//         $"Is July 4th daylight saving time? {independenceDay.IsDaylightSavingTime()}");
+
+SectionTitle("Localizing the DayOfWeek enum");
+CultureInfo previousCulture = Thread.CurrentThread.CurrentCulture;
+
+//Explicitly set culture to Danish (Denmark).
+Thread.CurrentThread.CurrentCulture = CultureInfo.GetCultureInfo("pt-BR");
+
+//DayOfWeek is not localized to Danish.
 WriteLine(
-        $"Is July 4th daylight saving time? {independenceDay.IsDaylightSavingTime()}");
+    $"Culture: {Thread.CurrentThread.CurrentCulture.NativeName}, " +
+        $"DayOfWeek: {DateTime.Now.DayOfWeek}");
+
+//Use dddd format code to get day of the week localized.
+WriteLine(
+    $"Culture: {Thread.CurrentThread.CurrentCulture.NativeName}, " +
+    $"DayOfWeek: {DateTime.Now:dddd}");
+
+//Use GetDayName method to get day of the week localized.
+WriteLine(
+    $"Culture: {Thread.CurrentThread.CurrentCulture.NativeName}, " +
+    $"DayOfWeek: {DateTimeFormatInfo.CurrentInfo.GetDayName(DateTime.Now.DayOfWeek)}");
+
+Thread.CurrentThread.CurrentCulture = previousCulture;
