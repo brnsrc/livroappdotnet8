@@ -1,6 +1,6 @@
 ﻿using System.Globalization;
 using System.Threading.Tasks.Dataflow; //To use CultureInfo.
-ConfigureConsole("en-GB"); //Defaults to pt-BR culture
+ConfigureConsole("da-DK"); //Defaults to pt-BR culture
 // SectionTitle("Specifying date and time values");
 // WriteLine($"Datetime.MinValue: {DateTime.MinValue}");
 // WriteLine($"Datetime.MaxValue: {DateTime.MaxValue}");
@@ -81,25 +81,59 @@ DateTime xmas = new(year: 2025, month: 12, day: 25);
 // WriteLine(
 //         $"Is July 4th daylight saving time? {independenceDay.IsDaylightSavingTime()}");
 
-SectionTitle("Localizing the DayOfWeek enum");
-CultureInfo previousCulture = Thread.CurrentThread.CurrentCulture;
 
-//Explicitly set culture to Danish (Denmark).
-Thread.CurrentThread.CurrentCulture = CultureInfo.GetCultureInfo("pt-BR");
 
-//DayOfWeek is not localized to Danish.
-WriteLine(
-    $"Culture: {Thread.CurrentThread.CurrentCulture.NativeName}, " +
-        $"DayOfWeek: {DateTime.Now.DayOfWeek}");
+// SectionTitle("Localizing the DayOfWeek enum");
+// CultureInfo previousCulture = Thread.CurrentThread.CurrentCulture;
 
-//Use dddd format code to get day of the week localized.
-WriteLine(
-    $"Culture: {Thread.CurrentThread.CurrentCulture.NativeName}, " +
-    $"DayOfWeek: {DateTime.Now:dddd}");
+// //Explicitly set culture to Danish (Denmark).
+// Thread.CurrentThread.CurrentCulture = CultureInfo.GetCultureInfo("da-DK");
 
-//Use GetDayName method to get day of the week localized.
-WriteLine(
-    $"Culture: {Thread.CurrentThread.CurrentCulture.NativeName}, " +
-    $"DayOfWeek: {DateTimeFormatInfo.CurrentInfo.GetDayName(DateTime.Now.DayOfWeek)}");
+// //DayOfWeek is not localized to Danish.
+// WriteLine(
+//     $"Culture: {Thread.CurrentThread.CurrentCulture.NativeName}, " +
+//         $"DayOfWeek: {DateTime.Now.DayOfWeek}");
 
-Thread.CurrentThread.CurrentCulture = previousCulture;
+// //Use dddd format code to get day of the week localized.
+// WriteLine(
+//     $"Culture: {Thread.CurrentThread.CurrentCulture.NativeName}, " +
+//     $"DayOfWeek: {DateTime.Now:dddd}");
+
+// //Use GetDayName method to get day of the week localized.
+// WriteLine(
+//     $"Culture: {Thread.CurrentThread.CurrentCulture.NativeName}, " +
+//     $"DayOfWeek: {DateTimeFormatInfo.CurrentInfo.GetDayName(DateTime.Now.DayOfWeek)}");
+
+// Thread.CurrentThread.CurrentCulture = previousCulture;
+
+// SectionTitle("Working with only a date or aa time");
+// DateOnly party = new(year: 2025, month: 11, day: 12);
+// WriteLine($"The .NET 10 release party is on {party.ToLongDateString()}");
+// TimeOnly starts = new(hour: 11, minute: 30);
+// WriteLine($"The party starts at {starts}.");
+// DateTime calendarEntry = party.ToDateTime(starts);
+// WriteLine($"Add to your calendar: {calendarEntry}.");
+
+SectionTitle("Working with date/time formats.");
+DateTimeFormatInfo dtfi = DateTimeFormatInfo.CurrentInfo;
+//Or use 
+// Thread.CurrentThread.CurrentCulture.DateTimeFormat
+WriteLine($"Date separator: {dtfi.DateSeparator}");
+WriteLine($"Time separator: {dtfi.TimeSeparator}");
+WriteLine($"Long date pattern: {dtfi.LongDatePattern}");
+WriteLine($"Short date pattern: {dtfi.ShortDatePattern}");
+WriteLine($"Long time pattern: {dtfi.LongTimePattern}");
+WriteLine($"Short time pattern: {dtfi.ShortTimePattern}");
+Write("Day name:");
+for (int i = 0; i < dtfi.DayNames.Length - 1; i++)
+{
+    Write($" {dtfi.GetDayName((DayOfWeek)i)}");
+}
+WriteLine();
+Write("Month names: ");
+for (int i = 1; i < dtfi.MonthNames.Length; i++)
+{
+    Write($" {dtfi.GetMonthName(i)}");
+}
+
+WriteLine();

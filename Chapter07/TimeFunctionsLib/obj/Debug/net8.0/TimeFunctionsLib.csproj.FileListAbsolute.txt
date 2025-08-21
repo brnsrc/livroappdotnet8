@@ -1,0 +1,12 @@
+C:\Users\bruno.costa\Documents\code\cs\livroappdotnet8\Chapter07\TimeFunctionsLib\bin\Debug\net8.0\TimeFunctionsLib.deps.json
+C:\Users\bruno.costa\Documents\code\cs\livroappdotnet8\Chapter07\TimeFunctionsLib\bin\Debug\net8.0\TimeFunctionsLib.dll
+C:\Users\bruno.costa\Documents\code\cs\livroappdotnet8\Chapter07\TimeFunctionsLib\bin\Debug\net8.0\TimeFunctionsLib.pdb
+C:\Users\bruno.costa\Documents\code\cs\livroappdotnet8\Chapter07\TimeFunctionsLib\obj\Debug\net8.0\TimeFunctionsLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bruno.costa\Documents\code\cs\livroappdotnet8\Chapter07\TimeFunctionsLib\obj\Debug\net8.0\TimeFunctionsLib.AssemblyInfoInputs.cache
+C:\Users\bruno.costa\Documents\code\cs\livroappdotnet8\Chapter07\TimeFunctionsLib\obj\Debug\net8.0\TimeFunctionsLib.AssemblyInfo.cs
+C:\Users\bruno.costa\Documents\code\cs\livroappdotnet8\Chapter07\TimeFunctionsLib\obj\Debug\net8.0\TimeFunctionsLib.csproj.CoreCompileInputs.cache
+C:\Users\bruno.costa\Documents\code\cs\livroappdotnet8\Chapter07\TimeFunctionsLib\obj\Debug\net8.0\TimeFunctionsLib.sourcelink.json
+C:\Users\bruno.costa\Documents\code\cs\livroappdotnet8\Chapter07\TimeFunctionsLib\obj\Debug\net8.0\TimeFunctionsLib.dll
+C:\Users\bruno.costa\Documents\code\cs\livroappdotnet8\Chapter07\TimeFunctionsLib\obj\Debug\net8.0\refint\TimeFunctionsLib.dll
+C:\Users\bruno.costa\Documents\code\cs\livroappdotnet8\Chapter07\TimeFunctionsLib\obj\Debug\net8.0\TimeFunctionsLib.pdb
+C:\Users\bruno.costa\Documents\code\cs\livroappdotnet8\Chapter07\TimeFunctionsLib\obj\Debug\net8.0\ref\TimeFunctionsLib.dll
