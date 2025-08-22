@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TimeFunctionsLib")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c4a60dbe469f407d07b82e83de99de9616d93961")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0eb8b55a845c755bec1f5c40c97d9a95d946fa1a")]
 [assembly: System.Reflection.AssemblyProductAttribute("TimeFunctionsLib")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TimeFunctionsLib")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

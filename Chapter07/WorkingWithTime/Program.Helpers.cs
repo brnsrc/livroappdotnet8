@@ -1,7 +1,6 @@
 using System.Globalization; //To use CultureInfo.
 partial class Program
-{
-    
+{    
     private static void ConfigureConsole(string culture = "pt-BR",
         bool overrideComputerCulture = true)
     {
