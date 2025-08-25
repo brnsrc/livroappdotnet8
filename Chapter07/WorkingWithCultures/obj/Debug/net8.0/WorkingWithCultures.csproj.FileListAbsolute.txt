@@ -1,0 +1,15 @@
+C:\Users\BrunoSouza-Desk\Documents\code\livroappdotnet8\Chapter07\WorkingWithCultures\obj\Debug\net8.0\WorkingWithCultures.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\BrunoSouza-Desk\Documents\code\livroappdotnet8\Chapter07\WorkingWithCultures\obj\Debug\net8.0\WorkingWithCultures.AssemblyInfoInputs.cache
+C:\Users\BrunoSouza-Desk\Documents\code\livroappdotnet8\Chapter07\WorkingWithCultures\obj\Debug\net8.0\WorkingWithCultures.AssemblyInfo.cs
+C:\Users\BrunoSouza-Desk\Documents\code\livroappdotnet8\Chapter07\WorkingWithCultures\obj\Debug\net8.0\WorkingWithCultures.csproj.CoreCompileInputs.cache
+C:\Users\BrunoSouza-Desk\Documents\code\livroappdotnet8\Chapter07\WorkingWithCultures\obj\Debug\net8.0\WorkingWithCultures.sourcelink.json
+C:\Users\BrunoSouza-Desk\Documents\code\livroappdotnet8\Chapter07\WorkingWithCultures\bin\Debug\net8.0\WorkingWithCultures.exe
+C:\Users\BrunoSouza-Desk\Documents\code\livroappdotnet8\Chapter07\WorkingWithCultures\bin\Debug\net8.0\WorkingWithCultures.deps.json
+C:\Users\BrunoSouza-Desk\Documents\code\livroappdotnet8\Chapter07\WorkingWithCultures\bin\Debug\net8.0\WorkingWithCultures.runtimeconfig.json
+C:\Users\BrunoSouza-Desk\Documents\code\livroappdotnet8\Chapter07\WorkingWithCultures\bin\Debug\net8.0\WorkingWithCultures.dll
+C:\Users\BrunoSouza-Desk\Documents\code\livroappdotnet8\Chapter07\WorkingWithCultures\bin\Debug\net8.0\WorkingWithCultures.pdb
+C:\Users\BrunoSouza-Desk\Documents\code\livroappdotnet8\Chapter07\WorkingWithCultures\obj\Debug\net8.0\WorkingWithCultures.dll
+C:\Users\BrunoSouza-Desk\Documents\code\livroappdotnet8\Chapter07\WorkingWithCultures\obj\Debug\net8.0\refint\WorkingWithCultures.dll
+C:\Users\BrunoSouza-Desk\Documents\code\livroappdotnet8\Chapter07\WorkingWithCultures\obj\Debug\net8.0\WorkingWithCultures.pdb
+C:\Users\BrunoSouza-Desk\Documents\code\livroappdotnet8\Chapter07\WorkingWithCultures\obj\Debug\net8.0\WorkingWithCultures.genruntimeconfig.cache
+C:\Users\BrunoSouza-Desk\Documents\code\livroappdotnet8\Chapter07\WorkingWithCultures\obj\Debug\net8.0\ref\WorkingWithCultures.dll
