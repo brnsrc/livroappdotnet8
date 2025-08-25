@@ -6,7 +6,7 @@ OutputEncoding = System.Text.Encoding.UTF8;
 OutputCultures("Current Culture");
 WriteLine("Example ISO culture codes:");
 string[] cultureCodes = {
-    "da-DK", "en-GB", "en-US", "fa-IR", "fr-CA", "fr-FR", "he-IL", "pl-PL", "sl-SL" };
+    "da-DK", "en-GB", "en-US", "fa-IR", "fr-CA", "fr-FR", "he-IL", "pl-PL", "sl-SI" };
 
 foreach (string code in cultureCodes)
 {
@@ -36,4 +36,41 @@ catch (CultureNotFoundException)
     return;
 }
 
+//changethe current cultures on the thread
+CultureInfo.CurrentCulture = ci;
+CultureInfo.CurrentUICulture = ci;
+OutputCultures("After changing the current culture.");
+Write("Enter your name: ");
+string? name = ReadLine();
+if (string.IsNullOrWhiteSpace(name))
+{
+    name = "Bob";
+}
+WriteLine("Enter your date of birth: ");
+string? dobText = ReadLine();
 
+if (string.IsNullOrWhiteSpace(dobText))
+{
+    // If they do not enter a DOB the use
+    // sensible defaults for their culture
+    dobText = ci.Name switch
+    {
+        "en-US" or "fr-CA" => "1/27/1990",
+        "da-DK" or "fr-FR" => "27/1/1990",
+        "fa-IR" => "1990/1/27",
+        _ => "1/27/1990"
+    };
+}
+
+Write("Enter your salary: ");
+string? salaryText = ReadLine();
+
+if (string.IsNullOrWhiteSpace(salaryText))
+{
+    salaryText = "34500";
+}
+
+DateTime dob = DateTime.Parse(dobText);
+int minutes = (int)DateTime.Today.Subtract(dob).TotalMinutes;
+decimal salary = decimal.Parse(salaryText);
+WriteLine($"{name} was born on a {dob:dddd}. {name} is {minutes:N0} minutes old. {name} earns {salary:C}");

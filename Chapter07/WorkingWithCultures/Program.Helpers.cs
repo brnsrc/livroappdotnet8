@@ -24,9 +24,9 @@ partial class Program
             $"{localization.Name}: {localization.DisplayName}");
 
         WriteLine(
-            $"Days of the week: {string.Join(",", globalization.DateTimeFormat.DayNames)}");
+            $"Days of the week: {string.Join(", ", globalization.DateTimeFormat.DayNames)}");
 
-        WriteLine($"Month of the year: {string.Join(",", globalization.DateTimeFormat.MonthNames.
+        WriteLine($"Month of the year: {string.Join(", ", globalization.DateTimeFormat.MonthNames.
             //Some have 13 months; most 12, and last is empty.
             TakeWhile(month => !string.IsNullOrEmpty(month)))}");
 
