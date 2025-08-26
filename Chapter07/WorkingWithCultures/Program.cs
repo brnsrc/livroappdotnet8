@@ -1,6 +1,21 @@
 ﻿
 // To enable especial character like €
 using System.Threading.Tasks.Dataflow;
+using Microsoft.Extensions.Hosting; // To use IHost, Host.
+
+// To use AddLocalization, AddTransient<T>.
+using Microsoft.Extensions.DependencyInjection;
+using WorkingWithCultures;
+
+using IHost host = Host.CreateDefaultBuilder(args).ConfigureServices(services =>
+    {
+        services.AddLocalization(options =>
+        {
+            options.ResourcesPath = "Resources";
+        });
+        services.AddTransient<PacktResources>();
+    }).Build();
+    
 
 OutputEncoding = System.Text.Encoding.UTF8;
 OutputCultures("Current Culture");
@@ -40,13 +55,19 @@ catch (CultureNotFoundException)
 CultureInfo.CurrentCulture = ci;
 CultureInfo.CurrentUICulture = ci;
 OutputCultures("After changing the current culture.");
-Write("Enter your name: ");
+// -----------------------------------------
+PacktResources resources = host.Services.GetRequiredService<PacktResources>();
+// -----------------------------------------
+
+// Write("Enter your name: ");
+Write(resources.GetEnterYourNamePrompt());
 string? name = ReadLine();
 if (string.IsNullOrWhiteSpace(name))
 {
     name = "Bob";
 }
-WriteLine("Enter your date of birth: ");
+// WriteLine("Enter your date of birth: ");
+Write(resources.GetEnterYourDobPrompt());
 string? dobText = ReadLine();
 
 if (string.IsNullOrWhiteSpace(dobText))
@@ -62,7 +83,8 @@ if (string.IsNullOrWhiteSpace(dobText))
     };
 }
 
-Write("Enter your salary: ");
+// Write("Enter your salary: ");
+Write(resources.GetEnterYourSalaryPrompt());
 string? salaryText = ReadLine();
 
 if (string.IsNullOrWhiteSpace(salaryText))
@@ -73,4 +95,5 @@ if (string.IsNullOrWhiteSpace(salaryText))
 DateTime dob = DateTime.Parse(dobText);
 int minutes = (int)DateTime.Today.Subtract(dob).TotalMinutes;
 decimal salary = decimal.Parse(salaryText);
-WriteLine($"{name} was born on a {dob:dddd}. {name} is {minutes:N0} minutes old. {name} earns {salary:C}");
+// WriteLine($"{name} was born on a {dob:dddd}. {name} is {minutes:N0} minutes old. {name} earns {salary:C}");
+WriteLine(resources.GetPersonDetails(name, dob, minutes, salary));

@@ -62,3 +62,5 @@ C:\Users\bruno.costa\Documents\code\cs\livroappdotnet8\Chapter07\WorkingWithCult
 C:\Users\bruno.costa\Documents\code\cs\livroappdotnet8\Chapter07\WorkingWithCultures\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.dll
 C:\Users\bruno.costa\Documents\code\cs\livroappdotnet8\Chapter07\WorkingWithCultures\obj\Debug\net8.0\WorkingWithCultures.csproj.AssemblyReference.cache
 C:\Users\bruno.costa\Documents\code\cs\livroappdotnet8\Chapter07\WorkingWithCultures\obj\Debug\net8.0\WorkingW.DB96A03E.Up2Date
+C:\Users\bruno.costa\Documents\code\cs\livroappdotnet8\Chapter07\WorkingWithCultures\obj\Debug\net8.0\WorkingWithCultures.csproj.GenerateResource.cache
+C:\Users\bruno.costa\Documents\code\cs\livroappdotnet8\Chapter07\WorkingWithCultures\obj\Debug\net8.0\WorkingWithCultures.Resources.Resources.resources
