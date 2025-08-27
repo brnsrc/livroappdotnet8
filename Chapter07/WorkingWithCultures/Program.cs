@@ -5,7 +5,6 @@ using Microsoft.Extensions.Hosting; // To use IHost, Host.
 
 // To use AddLocalization, AddTransient<T>.
 using Microsoft.Extensions.DependencyInjection;
-using WorkingWithCultures;
 
 using IHost host = Host.CreateDefaultBuilder(args).ConfigureServices(services =>
     {
@@ -16,7 +15,6 @@ using IHost host = Host.CreateDefaultBuilder(args).ConfigureServices(services =>
         services.AddTransient<PacktResources>();
     }).Build();
     
-
 OutputEncoding = System.Text.Encoding.UTF8;
 OutputCultures("Current Culture");
 WriteLine("Example ISO culture codes:");

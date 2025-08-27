@@ -2316,12 +2316,11 @@
       ]
     },
     "runtime.native.System.IO.Compression/4.3.0": {
-      "sha512": "INBPonS5QPEgn7naufQFXJEp3zX6L4bwHgJ/ZH78aBTpeNfQMtf7C6VrAFhlq2xxWBveIOWyFzQjJ8XzHMhdOQ==",
+      "sha512": "b+V9JC/Ii3sR659flBeaBJww111425tgjcDS1k+hqV4sGh9FALRDBvJnDtQ895gAzpPTUOFDHdqaZ2Et7BpZMg==",
       "type": "package",
       "path": "runtime.native.system.io.compression/4.3.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/netstandard1.0/_._",
@@ -2428,12 +2427,11 @@
       ]
     },
     "runtime.rhel.7-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
-      "sha512": "nyFNiCk/r+VOiIqreLix8yN+q3Wga9+SE8BCgkf+2BwEKiNx6DyvFjCgkfV743/grxv8jHJ8gUK4XEQw7yzRYg==",
+      "sha512": "T5NvFgmHX0WH4c7lP72krsnk+IJI10vJf2j2twGE+5QBRA4RyRAgD+ZjEgdmpLOjW4B+nZGaadewTCUcR899OQ==",
       "type": "package",
       "path": "runtime.rhel.7-x64.runtime.native.system.security.cryptography.openssl/4.3.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "runtime.rhel.7-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
@@ -5658,32 +5656,41 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\bruno.costa\\.nuget\\packages\\": {}
+    "C:\\Users\\BrunoSouza-Desk\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\bruno.costa\\Documents\\code\\cs\\livroappdotnet8\\Chapter07\\TestingWithTimeProvider\\TestingWithTimeProvider.csproj",
+      "projectUniqueName": "C:\\Users\\BrunoSouza-Desk\\Documents\\code\\livroappdotnet8\\Chapter07\\TestingWithTimeProvider\\TestingWithTimeProvider.csproj",
       "projectName": "TestingWithTimeProvider",
-      "projectPath": "C:\\Users\\bruno.costa\\Documents\\code\\cs\\livroappdotnet8\\Chapter07\\TestingWithTimeProvider\\TestingWithTimeProvider.csproj",
-      "packagesPath": "C:\\Users\\bruno.costa\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\bruno.costa\\Documents\\code\\cs\\livroappdotnet8\\Chapter07\\TestingWithTimeProvider\\obj\\",
+      "projectPath": "C:\\Users\\BrunoSouza-Desk\\Documents\\code\\livroappdotnet8\\Chapter07\\TestingWithTimeProvider\\TestingWithTimeProvider.csproj",
+      "packagesPath": "C:\\Users\\BrunoSouza-Desk\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\BrunoSouza-Desk\\Documents\\code\\livroappdotnet8\\Chapter07\\TestingWithTimeProvider\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\bruno.costa\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\BrunoSouza-Desk\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\bruno.costa\\Documents\\code\\cs\\livroappdotnet8\\Chapter07\\TimeFunctionsLib\\TimeFunctionsLib.csproj": {
-              "projectPath": "C:\\Users\\bruno.costa\\Documents\\code\\cs\\livroappdotnet8\\Chapter07\\TimeFunctionsLib\\TimeFunctionsLib.csproj"
+            "C:\\Users\\BrunoSouza-Desk\\Documents\\code\\livroappdotnet8\\Chapter07\\TimeFunctionsLib\\TimeFunctionsLib.csproj": {
+              "projectPath": "C:\\Users\\BrunoSouza-Desk\\Documents\\code\\livroappdotnet8\\Chapter07\\TimeFunctionsLib\\TimeFunctionsLib.csproj"
             }
           }
         }
@@ -5697,7 +5704,8 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      }
+      },
+      "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
       "net8.0": {
@@ -5740,7 +5748,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.413/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
