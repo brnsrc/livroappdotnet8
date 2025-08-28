@@ -19,7 +19,7 @@ public class PacktResources
         {
             ConsoleColor previousColor = ForegroundColor;
             ForegroundColor = ConsoleColor.Red;
-            WriteLine($"Error: resource string \"{resourceStringName}\"not found."
+            WriteLine($"Error: resource string \"{resourceStringName}\" not found."
             + Environment.NewLine + $"Search path: {localizedString.SearchedLocation}");
             ForegroundColor = previousColor;
             return $"{localizedString}: ";
@@ -34,12 +34,12 @@ public class PacktResources
         //LocalizedString has an implicit cast to string
         // that fall back to the key if the resource
         //string is not found
-        return localizer["localizedString"];
+        return localizer["EnterYourDob"];
     }
 
     public string? GetEnterYourSalaryPrompt()
     {
-        return localizer["EnterYorSalary"];
+        return localizer["EnterYourSalary"];
     }
 
     public string? GetPersonDetails(string name, DateTime dob, int minutes, decimal salary)
