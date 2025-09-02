@@ -19,7 +19,7 @@ public class PacktResources
         {
             ConsoleColor previousColor = ForegroundColor;
             ForegroundColor = ConsoleColor.Red;
-            WriteLine($"Error: resource string \"{resourceStringName}\"not found."
+            WriteLine($"Error: resource string \"{resourceStringName}\" not found."
             + Environment.NewLine + $"Search path: {localizedString.SearchedLocation}");
             ForegroundColor = previousColor;
             return $"{localizedString}: ";
