@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "cfaLokI4Lis=",
+  "dgSpecHash": "u7pMJTQVVXs=",
   "success": true,
-  "projectFilePath": "C:\\Users\\bruno.costa\\Documents\\code\\cs\\livroappdotnet8\\Chapter07\\WorkingWithNodaTime\\WorkingWithNodaTime.csproj",
+  "projectFilePath": "C:\\Users\\BrunoSouza-Desk\\Documents\\code\\livroappdotnet8\\Chapter07\\WorkingWithNodaTime\\WorkingWithNodaTime.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\bruno.costa\\.nuget\\packages\\nodatime\\3.2.2\\nodatime.3.2.2.nupkg.sha512"
+    "C:\\Users\\BrunoSouza-Desk\\.nuget\\packages\\nodatime\\3.2.2\\nodatime.3.2.2.nupkg.sha512"
   ],
   "logs": []
 }

@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkingWithTimeZones", "Wor
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkingWithCultures", "WorkingWithCultures\WorkingWithCultures.csproj", "{DAF6507B-9924-40DC-ADAD-A74B50EE362D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkingWithNodaTime", "WorkingWithNodaTime\WorkingWithNodaTime.csproj", "{DA282DE0-4EAC-402C-B402-817D510CD6A0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -83,6 +85,18 @@ Global
 		{DAF6507B-9924-40DC-ADAD-A74B50EE362D}.Release|x64.Build.0 = Release|Any CPU
 		{DAF6507B-9924-40DC-ADAD-A74B50EE362D}.Release|x86.ActiveCfg = Release|Any CPU
 		{DAF6507B-9924-40DC-ADAD-A74B50EE362D}.Release|x86.Build.0 = Release|Any CPU
+		{DA282DE0-4EAC-402C-B402-817D510CD6A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA282DE0-4EAC-402C-B402-817D510CD6A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA282DE0-4EAC-402C-B402-817D510CD6A0}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{DA282DE0-4EAC-402C-B402-817D510CD6A0}.Debug|x64.Build.0 = Debug|Any CPU
+		{DA282DE0-4EAC-402C-B402-817D510CD6A0}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{DA282DE0-4EAC-402C-B402-817D510CD6A0}.Debug|x86.Build.0 = Debug|Any CPU
+		{DA282DE0-4EAC-402C-B402-817D510CD6A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA282DE0-4EAC-402C-B402-817D510CD6A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA282DE0-4EAC-402C-B402-817D510CD6A0}.Release|x64.ActiveCfg = Release|Any CPU
+		{DA282DE0-4EAC-402C-B402-817D510CD6A0}.Release|x64.Build.0 = Release|Any CPU
+		{DA282DE0-4EAC-402C-B402-817D510CD6A0}.Release|x86.ActiveCfg = Release|Any CPU
+		{DA282DE0-4EAC-402C-B402-817D510CD6A0}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
