@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TestingWithTimeProvider")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+10dd6684f1c8a81deabeac7f5c1a1280844bb7c3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d11fe18bedb1560d7aa96b929d9773bf7fd7ba2f")]
 [assembly: System.Reflection.AssemblyProductAttribute("TestingWithTimeProvider")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TestingWithTimeProvider")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
