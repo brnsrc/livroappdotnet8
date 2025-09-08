@@ -30,7 +30,7 @@ public static class NorthwindContextExtensions
             // If using SQL Server authentication.
             // builder.UserID = Environment.GetEnvironmentVariable("MY_SQL_USR");
             // builder.Password = Environment.GetEnvironmentVariable("MY_SQL_PWD");
-            builder.UserID = "bruno";
+            builder.UserID = "sa";
             builder.Password = "bruno123";
             connectionString = builder.ConnectionString;
         }
