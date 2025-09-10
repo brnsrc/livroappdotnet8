@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Northwind.WebApi.Service")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d11fe18bedb1560d7aa96b929d9773bf7fd7ba2f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+493ed344b72dd0b1c040b300323ea4edb6287234")]
 [assembly: System.Reflection.AssemblyProductAttribute("Northwind.WebApi.Service")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Northwind.WebApi.Service")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
